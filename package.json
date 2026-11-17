@@ -1,0 +1,44 @@
+{
+  "name": "openses-cli",
+  "version": "1.0.0",
+  "description": "Command line for OpenSES: send email, check delivery, manage contacts, sequences and suppressions, and answer the inbox on your own Amazon SES.",
+  "type": "module",
+  "bin": {
+    "openses": "bin/openses.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": {
+    "name": "OpenSES",
+    "url": "https://openses.email"
+  },
+  "license": "MIT",
+  "homepage": "https://openses.email",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openses-email/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openses-email/cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "openses",
+    "cli",
+    "amazon-ses",
+    "aws-ses",
+    "email",
+    "transactional-email"
+  ]
+}
